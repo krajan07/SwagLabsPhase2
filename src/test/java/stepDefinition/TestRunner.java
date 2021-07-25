@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome=true,
 		plugin= {"pretty", "json:target/cucumber.json", "html:target/cucumber-html"},
 		features = "src/test/java",
-		tags = {"@Login"},
+		tags = {"@Product,@Login"},
 		glue = {"stepDefinition"}
 		)
 
